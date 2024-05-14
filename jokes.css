@@ -1,0 +1,143 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 475px){
+
+    .mainDiv{
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: black;
+        color: white;
+        border-radius: 0 20px 20px 20px;
+        padding: 20px;
+        border: 2px solid white;
+        outline: 2px solid black;
+        font-size: 20px;
+    }
+    
+    #deleteBtnDiv{
+        display: flex;
+        justify-content: center;
+    }
+    #generateBtn{
+        border-radius: 0 20px 0 20px;
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        outline: 2px solid black;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+
+    .footer{
+        display: none;
+    }
+    #openMenu{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        color: black;
+        background-color: white;
+        border: 2px solid black;
+        outline: 2px solid white;
+    }
+    #footerSmaller{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        font-size: 20px;
+        border: 2px solid black;
+        outline: 2px solid white;
+        border-radius: 0 10px 0 10px;
+    }
+    #footerSmaller ul li{
+        list-style-type: none;
+        padding: 4px;
+        margin: 5px;
+        background-color: black;
+        border-radius: 10px;
+    }
+    #footerSmaller ul li a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 475px){
+
+    .mainDiv{
+        margin-top: 200px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: black;
+        color: white;
+        border-radius: 0 20px 20px 20px;
+        padding: 20px;
+        border: 2px solid white;
+        outline: 2px solid black;
+        font-size: 20px;
+    }
+    
+    #deleteBtnDiv{
+        display: flex;
+        justify-content: center;
+    }
+    #generateBtn{
+        border-radius: 0 20px 0 20px;
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        outline: 2px solid black;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    .footer{
+        position: fixed;
+        bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid white;
+        outline: 2px solid black;
+        border-radius: 0 20px 0 20px;
+        background-color: black;
+    }
+    
+    .navigation ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .navigation ul li{
+        list-style-type: none;
+        padding: 10px;
+    }
+    .navigation ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 0 20px 0 20px;
+        
+    }
+
+    #footerSmaller{
+        display: none;
+    }
+    #openMenu{
+        display: none;
+    }
+}

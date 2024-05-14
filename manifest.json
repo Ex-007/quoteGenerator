@@ -1,0 +1,27 @@
+
+{
+  "name": "Web for series application",
+  "short_name": "Your need",
+  "description": "This is a web app arranged together for provision to basic information.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#3498db",
+  "icons": [
+    {
+      "src": "images/android-chrome-32x32.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "images/android-chrome-512x512.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/android-chrome-512x512.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

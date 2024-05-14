@@ -1,0 +1,225 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+
+
+@media only screen and (max-width: 475px){
+    #mainDisplay{
+        display: none;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 80px;
+        background-color: black;
+        color: white;
+        border-radius: 0 20px 20px 20px;
+        padding: 10px;
+        font-size: 20px;
+        border: 2px solid white;
+        outline: 2px solid black;
+    }
+    #mainDisplay p:nth-child(odd){
+        border: 2px solid white;
+        background: black;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    #mainDisplay p:nth-child(even){
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: white;
+        color: black;
+    }
+    #inputsearch{
+        position: fixed;
+        top: 10px;
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 0 20px 0 20px;
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        outline: 2px solid black;
+        padding: 5px;
+    }
+    #searchBtn{
+        border-radius: 0 20px 0 20px;
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        outline: 2px solid black;
+        padding: 5px;
+        cursor: pointer;
+    }
+    #searchBox{
+        margin-top: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        outline: 2px solid rgb(255, 255, 255);
+        border-radius: 0 20px 0 20px;
+        margin-right: 5px;
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .footer{
+        display: none;
+    }
+    #openMenu{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        color: black;
+        background-color: white;
+        border: 2px solid black;
+        outline: 2px solid white;
+    }
+    #footerSmaller{
+        background-color: black;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        font-size: 20px;
+        border: 2px solid rgb(255, 255, 255);
+        outline: 2px solid rgb(0, 0, 0);
+        border-radius: 0 10px 0 10px;
+    }
+    #footerSmaller ul li{
+        list-style-type: none;
+        padding: 4px;
+        margin: 5px;
+        background-color: black;
+        border-radius: 10px;
+    }
+    #footerSmaller ul li a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+    }
+    .logoImage{
+        width: 50px;
+        align-items: center;
+    }
+
+    .mainDisplay{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        border: 2px solid white;
+        border-radius: 0 20px 0 20px;
+        font-size: 18px;
+    }
+    .mainDisplay.div:nth-child(odd){
+        border-left: 2px solid white;
+    }
+    #coatOfArm{
+        margin-left: 25px;
+        width: 100px;
+    }
+    #flag{
+        width: 100px;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 475px){
+    #inputsearch{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 0 20px 0 20px;
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        outline: 2px solid black;
+        padding: 10px;
+    }
+    #searchBtn{
+        border-radius: 0 20px 0 20px;
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        outline: 2px solid black;
+        padding: 10px;
+        cursor: pointer;
+    }
+    #searchBox{
+        margin-top: 20px;
+        border: 2px solid rgb(0, 0, 0);
+        outline: 2px solid rgb(255, 255, 255);
+        height: 30px;
+        border-radius: 0 20px 0 20px;
+        margin-right: 10px;
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+    
+    .logoImage{
+        width: 80px;
+        align-items: center;
+    }
+    
+    
+    .footer{
+        position: fixed;
+        bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid white;
+        outline: 2px solid black;
+        border-radius: 0 20px 0 20px;
+        background-color: black;
+    }
+    
+    .navigation ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .navigation ul li{
+        list-style-type: none;
+        padding: 10px;
+    }
+    .navigation ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 0 20px 0 20px;
+    }
+    
+    .mainDisplay{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        margin: 40px;
+        border: 2px solid white;
+        border-radius: 0 20px 0 20px;
+        font-size: 20px;
+    }
+    #coatOfArm{
+        width: 150px;
+    }
+    #flag{
+        width: 250px;
+    }
+    #footerSmaller{
+        display: none;
+    }
+    #openMenu{
+        display: none;
+    }
+}
